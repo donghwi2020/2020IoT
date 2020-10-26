@@ -1,0 +1,74 @@
+Help us improve future releases by clicking Feedback to share your experience!
+
+Note: Your Cloud Shell session is running in Dallas (us-south). Your workspace includes 500 MB of temporary storage. This session will close after an hour of inactivity. If you don't have any active sessions for an hour or you reach the 50-hour weekly usage limit, your workspace data is removed. To track your usage, go to Usage quota in the Cloud Shell menu.                                                                                                                   Tip: Enter 'ibmcloud' to use the IBM Cloud CLI. The Dallas (us-south) region is targeted by default. You can switch the region by running 'ibmcloud target -r <region-name>'.
+
+dhfeldh@cloudshell:~$ ibmcloud login                                                                               API endpoint: https://cloud.ibm.com
+Region: us-south
+
+Email> dhfeldh@gmail.com
+
+Password> 
+Authenticating...
+OK
+
+Targeted account 동휘 신's Account (d74bad1b6f414dc8bf19205eeac836e8)
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              dhfeldh@gmail.com   
+Account:           동휘 신's Account (d74bad1b6f414dc8bf19205eeac836e8)   
+Resource group:    No resource group targeted, use 'ibmcloud target -g RESOURCE_GROUP'   
+CF API endpoint:      
+Org:                  
+Space:                
+dhfeldh@cloudshell:~$ ibmcloud resource groups
+Retrieving all resource groups under account d74bad1b6f414dc8bf19205eeac836e8 as dhfeldh@gmail.com...
+OK
+Name        ID                                 Default Group   State   
+MyFirstRG   02a99e5cc46e44b698fb65e201c57852   true            ACTIVE   
+dhfeldh@cloudshell:~$ ibmcloud target -g MyFirstRG
+Targeted resource group MyFirstRG
+
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              dhfeldh@gmail.com   
+Account:           동휘 신's Account (d74bad1b6f414dc8bf19205eeac836e8)   
+Resource group:    MyFirstRG   
+CF API endpoint:      
+Org:                  
+Space:                
+dhfeldh@cloudshell:~$ ibmcloud target -o example -s test
+Targeted Cloud Foundry (https://api.us-south.cf.cloud.ibm.com)
+
+FAILED
+Could not get org:
+Organization 'example' was not found.
+
+dhfeldh@cloudshell:~$ ibmcloud target --cf
+Targeted Cloud Foundry (https://api.us-south.cf.cloud.ibm.com)
+
+Targeted org dhfeldh@gmail.com
+
+
+Select a space (or press enter to skip):
+1. dev
+2. test
+Enter a number> ^C
+dhfeldh@cloudshell:~$ ibmcloud target -o dhfeldh@gmail.com -s test
+Targeted org dhfeldh@gmail.com
+
+Targeted space test
+
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              dhfeldh@gmail.com   
+Account:           동휘 신's Account (d74bad1b6f414dc8bf19205eeac836e8)   
+Resource group:    MyFirstRG   
+CF API endpoint:   https://api.us-south.cf.cloud.ibm.com (API version: 2.153.0)   
+Org:               dhfeldh@gmail.com   
+Space:             test   
