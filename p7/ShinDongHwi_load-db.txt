@@ -1,0 +1,25 @@
+> unit-14@1.0.0 load-db C:\Users\SIN\IBM\IBM-Developer\Node.js\Course\Unit-14
+> node ./utils/load-cloudant
+
+[2020-11-17T01:54:22.732] [INFO] default - 1605545662731:INFO: Connect success! Connected to DB: shopping_list
+[2020-11-17T01:54:22.737] [INFO] default - 1605545662737:INFO: mainline(): Initializing Cloudant... Done.
+[2020-11-17T01:54:22.756] [INFO] default - 1605545662756:INFO: mainline(): Script start at: 2020. 11. 17. 오전 1:54:22
+[2020-11-17T01:54:22.756] [INFO] default - 1605545662756:INFO: mainline(): Loading data for item...
+[2020-11-17T01:54:22.759] [INFO] default - 1605545662759:INFO: loadData(): Loading data files...
+[2020-11-17T01:54:22.761] [INFO] default - 1605545662761:INFO: loadData():readableStream.on(open): Opened file: ../data/Grocery_UPC_Database.csv
+[2020-11-17T01:54:22.782] [DEBUG] default - 1605545662782:DEBUG: Creating documents: 1-10000
+[2020-11-17T01:54:25.899] [DEBUG] default - 1605545665899:DEBUG: Creating documents: 10001-20000
+[2020-11-17T01:54:28.980] [DEBUG] default - 1605545668980:DEBUG: Creating documents: 20001-30000
+[2020-11-17T01:54:32.076] [DEBUG] default - 1605545672076:DEBUG: Creating documents: 30001-40000
+[2020-11-17T01:54:35.157] [DEBUG] default - 1605545675157:DEBUG: Creating documents: 40001-50000
+[2020-11-17T01:54:38.229] [DEBUG] default - 1605545678229:DEBUG: Creating documents: 50001-60000
+[2020-11-17T01:54:41.339] [DEBUG] default - 1605545681339:DEBUG: Creating documents: 60001-70000
+[2020-11-17T01:54:44.422] [DEBUG] default - 1605545684422:DEBUG: Creating documents: 70001-80000
+[2020-11-17T01:54:47.490] [DEBUG] default - 1605545687490:DEBUG: Creating documents: 80001-90000
+[2020-11-17T01:54:50.554] [DEBUG] default - 1605545690554:DEBUG: Creating documents: 90001-100000
+[2020-11-17T01:54:53.636] [DEBUG] default - 1605545693636:DEBUG: Creating documents: 100001-110000
+[2020-11-17T01:54:56.700] [INFO] default - 1605545696700:INFO: loadData():readableStream.on(close): Closed file: ../data/Grocery_UPC_Database.csv
+[2020-11-17T01:54:56.701] [DEBUG] default - 1605545696701:DEBUG: Creating documents: 110001-110436
+[2020-11-17T01:54:59.709] [INFO] default - 1605545699709:INFO: mainline(): Loading item data, done.
+[2020-11-17T01:54:59.710] [INFO] default - 1605545699710:INFO: Total item documents loaded: 110436
+[2020-11-17T01:54:59.712] [INFO] default - 1605545699712:INFO: mainline(): Script finished at: 2020. 11. 17. 오전 1:54:59

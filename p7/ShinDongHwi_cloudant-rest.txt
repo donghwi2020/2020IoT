@@ -1,0 +1,5 @@
+1. 
+{"ok":true}
+
+2. 
+{"ok":true,"id":"small-appliances:1000042","rev":"3-5904e7e8f9c599b0d64d8ae5a843e52c"}
