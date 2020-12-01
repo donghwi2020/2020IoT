@@ -1,0 +1,8 @@
+curl -X GET -u "apikey:SDTj3v3vS3kWMqiC2OMBB1k0geHdwrqGcBhbgyKHtL32" --output korean.wav "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/ca6c80f7-fea9-47bc-955c-084ccb1c01fc/v1/synthesize?accept=audio%2Fwav&text=%ED%8C%8C%EC%9D%BC%EC%9D%84%20%EB%B3%B4%EB%83%85%EB%8B%88%EB%8B%A4&voice=ko-KR_YunaVoice"
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 34126  100 34126    0     0  17063      0  0:00:02  0:00:02 --:--:-- 14558
+
+ls -l korean.wav
+-rw-r--r-- 1 shin shin 34126 Dec  1 17:30 korean.wav
